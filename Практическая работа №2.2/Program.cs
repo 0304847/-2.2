@@ -57,7 +57,7 @@ namespace Практическая_работа__2._2
              Console.WriteLine("введите значение x");
             x4 = Convert.ToDouble(Console.ReadLine());
 
-            F4 = (Math.Sqrt(Math.Pow(2 + y4, 2) + Math.Pow(Math.Sqrt(Math.Sin(y4 + 5)), 4))) / (Math.Log10(x4 + 1) - Math.Pow(y4, 3));
+            F4 = (Math.Sqrt(Math.Pow(2 + y4, 2) + Math.Pow(Math.Sqrt(Math.Sin(y4 + 5)), 4))) / (Math.Log(x4 + 1) - Math.Pow(y4, 3));
             Console.WriteLine($"решение задачи №4={F4}");
 
             double G5, x5, z5, y5, c5;
@@ -87,7 +87,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение y");
             y6 = Convert.ToDouble(Console.ReadLine());
 
-            K6 = (Math.Sqrt(x6 + b6 - a6) + Math.Log10(y6)) / (Math.Atan(b6 + a6));
+            K6 = (Math.Sqrt(x6 + b6 - a6) + Math.Log(y6)) / (Math.Atan(b6 + a6));
             Console.WriteLine($"решение задачи №6={K6}");
 
             double D7, x7, y7, a7;
@@ -100,7 +100,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение a");
             a7 = Convert.ToDouble(Console.ReadLine());
 
-            D7 = (Math.Cos(Math.Pow(x7, 3) + 6) - Math.Sin(y7 - a7)) / (Math.Log10(Math.Pow(x7, 4)) - 2 * Math.Pow(Math.Sin(x7), 5));
+            D7 = (Math.Cos(Math.Pow(x7, 3) + 6) - Math.Sin(y7 - a7)) / (Math.Log(Math.Pow(x7, 4)) - 2 * Math.Pow(Math.Sin(x7), 5));
             Console.WriteLine($"решение задачи №7={D7}");
 
             double P8, a8, y8, c8, x8;
@@ -128,7 +128,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение d");
             d9 = Convert.ToDouble(Console.ReadLine());
 
-            R9 = (Math.Pow(Math.Cos(y9), 3) + Math.Pow(2, x9) * d9) / (Math.Exp(y9) + Math.Log10(Math.Pow(Math.Sin(x9), 2) + 7.4));
+            R9 = (Math.Pow(Math.Cos(y9), 3) + Math.Pow(2, x9) * d9) / (Math.Exp(y9) + Math.Log(Math.Pow(Math.Sin(x9), 2) + 7.4));
             Console.WriteLine($"решение задачи №9={R9}");
 
             double U10, x10, y10;
@@ -150,7 +150,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение x");
             x11 = Convert.ToDouble(Console.ReadLine());
 
-            I11 = (2.33 * Math.Log10(Math.Sqrt(1 + Math.Pow(Math.Cos(y11), 2)))) / (Math.Exp(y11) + Math.Pow(Math.Sin(x11), 2));
+            I11 = (2.33 * Math.Log(Math.Sqrt(1 + Math.Pow(Math.Cos(y11), 2)))) / (Math.Exp(y11) + Math.Pow(Math.Sin(x11), 2));
             Console.WriteLine($"решение задачи №11={I11}");
 
             double G12, y12, x12, a12;
@@ -212,7 +212,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение t");
             t16 = Convert.ToDouble(Console.ReadLine());
 
-            P16 = (Math.Pow(Math.Sin(x16), 3) + Math.Log10(2 * y16 + 3 * x16)) / (Math.Pow(t16, 2) + Math.Sqrt(x16));
+            P16 = (Math.Pow(Math.Sin(x16), 3) + Math.Log(2 * y16 + 3 * x16)) / (Math.Pow(t16, 2) + Math.Sqrt(x16));
             Console.WriteLine($"решение задачи №16={P16}");
 
             double T17, x17, b17, a17, y17;
@@ -227,7 +227,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение a");
             a17 = Convert.ToDouble(Console.ReadLine());
 
-            T17 = (Math.Sqrt(x17 + b17 - a17) + Math.Log10(y17)) / (Math.Atan(b17 + a17));
+            T17 = (Math.Sqrt(x17 + b17 - a17) + Math.Log(y17)) / (Math.Atan(b17 + a17));
             Console.WriteLine($"решение задачи №17={T17}");
 
             double S18, y18, t18;
@@ -238,7 +238,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение t");
             t18 = Convert.ToDouble(Console.ReadLine());
 
-            S18 = (4.351 * Math.Pow(y18, 3) + 2 * t18 * Math.Log10(t18)) / (Math.Sqrt(Math.Cos(2 * y18) + 4.351));
+            S18 = (4.351 * Math.Pow(y18, 3) + 2 * t18 * Math.Log(t18)) / (Math.Sqrt(Math.Cos(2 * y18) + 4.351));
             Console.WriteLine($"решение задачи №18={S18}");
 
             double D19, K19, a19, b19, x19, y19;
@@ -255,7 +255,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите занчение y");
             y19 = Convert.ToDouble(Console.ReadLine());
 
-            D19 = (Math.Pow(K19, -x19) - a19 * Math.Sqrt(6) - Math.Cos(3 * a19 * b19)) / (Math.Pow(Math.Sin(a19 * Math.Asin(x19) + Math.Log10(y19)), 2));
+            D19 = (Math.Pow(K19, -x19) - a19 * Math.Sqrt(6) - Math.Cos(3 * a19 * b19)) / (Math.Pow(Math.Sin(a19 * Math.Asin(x19) + Math.Log(y19)), 2));
             Console.WriteLine($"решение задачи №19={D19}");
 
             double U20, y20, x20, b20, c20, a20;
@@ -311,7 +311,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение b");
             b23 = Convert.ToDouble(Console.ReadLine());
 
-            F23 = (Math.Sqrt(Math.Abs(x23) + Math.Pow(Math.Cos(x23), 4) + Math.Pow(z23, 4))) / (Math.Log10(x23) - Math.Asin(b23 * x23 - a23));
+            F23 = (Math.Sqrt(Math.Abs(x23) + Math.Pow(Math.Cos(x23), 4) + Math.Pow(z23, 4))) / (Math.Log(x23) - Math.Asin(b23 * x23 - a23));
             Console.WriteLine($"решение задачи №23={F23}");
 
             double F24, b24, x24, a24, z24;
@@ -352,7 +352,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение k");
             k26 = Convert.ToDouble(Console.ReadLine());
 
-            U26 = (Math.Log10(Math.Pow(x26, 3) + y26) - Math.Pow(y26, 4)) / (Math.Exp(y26) + 5.4 * Math.Pow(k26, 3));
+            U26 = (Math.Log(Math.Pow(x26, 3) + y26) - Math.Pow(y26, 4)) / (Math.Exp(y26) + 5.4 * Math.Pow(k26, 3));
             Console.WriteLine($"решение задачи №26={U26}");
 
             double P27, a27, x27, y27, c27;
@@ -395,7 +395,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение x");
             x29 = Convert.ToDouble(Console.ReadLine());
 
-            R29 = (Math.Pow(Math.Cos(y29), 2) + 2.4 * d29) / (Math.Exp(y29) + Math.Log10(Math.Pow(Math.Sin(x29), 2) + 6));
+            R29 = (Math.Pow(Math.Cos(y29), 2) + 2.4 * d29) / (Math.Exp(y29) + Math.Log(Math.Pow(Math.Sin(x29), 2) + 6));
             Console.WriteLine($"решение задачи №29={R29}");
 
             double K30, x30;
@@ -404,7 +404,7 @@ namespace Практическая_работа__2._2
             Console.WriteLine("введите значение x");
             x30 = Convert.ToDouble(Console.ReadLine());
 
-            K30 = (Math.Sqrt(Math.Pow(3 + x30, 6) - Math.Log10(x30))) / Math.Exp(0) + Math.Asin(6 * Math.Pow(x30, 2));
+            K30 = (Math.Sqrt(Math.Pow(3 + x30, 6) - Math.Log(x30))) / Math.Exp(0) + Math.Asin(6 * Math.Pow(x30, 2));
             Console.WriteLine($"решение задачи №30={K30}");
             Console.WriteLine("нажмите любую клавишу чтобы закрыть");
             Console.ReadKey();
